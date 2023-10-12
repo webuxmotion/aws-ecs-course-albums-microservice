@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "fae0ec2b-199a-41ae-a36b-1bd15e7a0590",
+		"name": "aws-albums-microservice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12457864",
+		"_collection_link": "https://www.postman.com/spino-bot/workspace/devops-course-1/collection/12457864-fae0ec2b-199a-41ae-a36b-1bd15e7a0590?action=share&source=collection_link&creator=12457864"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/albums",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI4MDQwNmJkMy0xZmMwLTQ4YjMtOWJkZi1lNzZjNjVhYzQ0YjEiLCJleHAiOjE3MDY3ODIyMzR9.LZqWfqOc8jkUvyUccp-JAXxo0pAoq6LUjweuv_fQgIvYqVpEWDkZcXNaC6fh3ywKCn2xXyDUsx3iNGF7OX55Iw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Photo album one\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/albums",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"albums"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
